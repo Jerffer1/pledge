@@ -1,5 +1,6 @@
 package cn.pledge.envconsole.book.service;
 
+import cn.hutool.core.util.ObjectUtil;
 import cn.pledge.envconsole.book.entity.*;
 import cn.pledge.envconsole.book.mapper.*;
 import cn.pledge.envconsole.book.model.enums.GainInterestType;
@@ -269,7 +270,7 @@ public class PledgeService {
         UserSession currentUser = UserUtils.getCurrentUser();
         Integer userId = currentUser.getUserId();
         String userAddress = currentUser.getUserAddress();
-        if (ObjectUtils.isNotEmpty(param.getUserId())){
+        if (ObjectUtil.isNotEmpty(param.getUserId())){
             User user = userMapper.selectByPrimaryKey(param.getUserId());
             if (user==null){
                 throw new BizException(Code.USER_NOT_EXIST);

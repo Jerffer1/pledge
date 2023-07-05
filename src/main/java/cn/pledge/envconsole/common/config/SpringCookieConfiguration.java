@@ -2,9 +2,9 @@ package cn.pledge.envconsole.common.config;
 
 import org.springframework.stereotype.Service;
 import org.springframework.context.annotation.Bean;
-import org.springframework.session.web.http.CookieSerializer;
-import org.springframework.session.web.http.DefaultCookieSerializer;
- 
+//import org.springframework.session.web.http.CookieSerializer;
+//import org.springframework.session.web.http.DefaultCookieSerializer;
+//
 //@Service
 public class SpringCookieConfiguration {
  

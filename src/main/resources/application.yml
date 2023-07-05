@@ -7,9 +7,12 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://154.39.79.61:3306/pledge1?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
-    username: root
-    password: CI8R>WZ1n
+#    url: jdbc:mysql://154.39.79.61:3306/pledge1?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+#    username: root
+#    password: CI8R>WZ1n
+    url: jdbc:mysql://rm-bp1wi82pcnyn4wb3rbo.mysql.rds.aliyuncs.com:3306/pledge?useUnicode=true&characterEncoding=UTF-8&tinyInt1isBit=false&serverTimezone=Asia/Shanghai
+    username: xxm
+    password: Xxm123456
     hikari:
       # 池中最小空闲连接数量，默认值10
       minimum-idle: 10

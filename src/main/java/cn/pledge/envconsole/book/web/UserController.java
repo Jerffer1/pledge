@@ -18,7 +18,7 @@ import lombok.RequiredArgsConstructor;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import org.tron.common.utils.ByteArray;
+//import org.tron.common.utils.ByteArray;
 import org.web3j.abi.FunctionEncoder;
 
 
@@ -43,7 +43,7 @@ import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.tron.walletserver.WalletApi.decodeFromBase58Check;
+//import static org.tron.walletserver.WalletApi.decodeFromBase58Check;
 
 /**
  * @author 89466
